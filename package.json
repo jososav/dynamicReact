@@ -1,0 +1,29 @@
+{
+  "name": "dynamicreact",
+  "version": "1.0.0",
+  "description": "Dynamic React",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon server/api.js",
+    "build": "webpack --config app/webpack.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jososav/dynamicReact.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jososav/dynamicReact/issues"
+  },
+  "homepage": "https://github.com/jososav/dynamicReact#readme",
+  "dependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7",
+    "webpack": "^5.28.0",
+    "webpack-cli": "^4.5.0"
+  }
+}
