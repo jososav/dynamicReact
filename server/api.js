@@ -1,4 +1,4 @@
-const DEFAULT_PORT = 8080
+const DEFAULT_PORT = 3000
 
 const { exec } = require("child_process")
 const fs = require('fs')
